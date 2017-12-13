@@ -125,22 +125,6 @@ body{
     background-color: #578ab3;
 }
 
-.skills table tr:nth-child(5) td:nth-child(n+2):nth-child(-n+5){
-    background-color: #578ab3;
-}
-
-.skills table tr:nth-child(6) td:nth-child(n+2):nth-child(-n+5){
-    background-color: #578ab3;
-}
-
-.skills table tr:nth-child(7) td:nth-child(2){
-    background-color: #578ab3;
-}
-
-.skills table tr:nth-child(8) td:nth-child(2){
-    background-color: #578ab3;
-}
-
 .extraSkills{
     padding: 2.5em 0 1em 5.5em;
 }
@@ -256,7 +240,7 @@ body{
 }
 
 .education__descr dl dd,
-.myProjects__descr ul li a{
+.myProjects__descr p{
     font: 1.5em/1.5em "Aller", serif;
     color: #fff;
 }
@@ -264,14 +248,6 @@ body{
 .myProjects__descr ul{
     display: flex;
     justify-content: space-around;
-}
-
-.myProjects__descr ul li a{
-    text-decoration: none;
-}
-
-.myProjects__descr ul li a:hover{
-    text-decoration: underline;
 }
 
 .printVersion{
